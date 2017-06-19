@@ -13,8 +13,8 @@ gulp.task('qiniu', () => {
     '!dist/**/*.map',
     '!dist/index.html'
   ]).pipe(qiniuCDN({
-    accessKey: "jQx1N1Pp8j6fL2gi-WNv9HcGImDtM4KtTA5Of4e2",
-    secretKey: "ZTGm_15O10wg346R-SWcyg3D3uTD3D2GDpjQstY4",
+    accessKey: "-",
+    secretKey: "-",
     bucket: "one2ten",
     private: false
   }, {
